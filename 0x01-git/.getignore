@@ -1,0 +1,46 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.dektop
+/.emacs.dektop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# flymake-mode
+*_flymake.*
+
+
+# eshell files
+/eshell/history
+/eshell/lastdir
+
+# reftex files
+*rel
+#AUCTex auto folder
+/auto/
+
+# cask packages
+.cask/
+dist/
+
+
+#Flycheck
+flycheck_*.el
+
+#sever auth directory
+/server/
+
+
+# projectiles files
+.projectile
+
+
+# directory configuration
+.dir-locals.el
